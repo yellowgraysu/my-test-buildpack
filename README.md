@@ -1,5 +1,5 @@
 # Heroku Buildpack for Flutter
-![header](https://user-images.githubusercontent.com/38699812/89092029-fb5b8400-d373-11ea-8ac0-6a46c817ae3b.png)
+![header]
 Automate your deployments on Heroku easily.
 
 ## 🔨 Setup
