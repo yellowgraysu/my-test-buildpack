@@ -35,6 +35,8 @@ export_env_dir "$3"
 mkdir -p $CACHE_DIR
 
 cd $BUILD_DIR
+ls -a $CACHE_DIR
+ls -a $BUILD_DIR
 
 if [ -d "$CACHE_DIR/flutter" ]; then
   print "Restoring Flutter SDK from CACHE"
