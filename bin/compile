@@ -118,6 +118,7 @@ fi
 
 if [ -d "$CACHE_DIR/.pub-cache/" ]; then
   print "dhttpd Found in cache. Restoring."
+  ls -al "$CACHE_DIR/.pub-cache/"
   cp -R $CACHE_DIR/.pub-cache/* $PUB_CACHE
 else
   print "Getting dhttpd to run web service."
