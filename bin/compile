@@ -116,8 +116,8 @@ fi
 # Is taken from my Github repo because some variables need to be changed every run
 # like PORT from environment.
 ls /
-ls $CACHE_DIR
-ls $BUILD_DIR
+ls -a $CACHE_DIR
+ls -a $BUILD_DIR
 
 if [ -d "$CACHE_DIR/.pub-cache/" ]; then
   print "dhttpd Found in cache. Restoring."
